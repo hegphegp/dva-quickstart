@@ -11,6 +11,7 @@ const app = dva();
 app.model(require('./models/counterInt').default);
 app.model(require('./models/counterObj').default);
 app.model(require('./models/example').default);
+app.model(require('./models/users').default);
 
 // 4. Router
 app.router(require('./router').default);
